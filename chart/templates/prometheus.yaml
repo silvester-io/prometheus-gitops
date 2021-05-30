@@ -3,7 +3,7 @@ kind: SealedSecret
 metadata:
   creationTimestamp: null
   name: prometheus-basic-auth
-  namespace: silvester-cluster
+  namespace: monitoring
 spec:
   encryptedData:
     auth: AgB5rzhzAXToya8GspsljAXKKEOHA+YUIMAktXtCtISvOpjIZYm1qcEBI6Yc9ra73Wvf8yreiTb3hBD8HslO0guy9tqNav6MdmnIa7qTNOhW4U1IJ5dl49l+qsP44Qh7LiKl++ZdT7UBBUnDANIHRPPlMl0+F1N7z6WbJldYmwczvJg6I6raCrEMZXt063LMnzQGHbtJWg4Icji+AO+3UDdELxi0i3iynztK+fxaRCroYCvodakApFOOIz5pXXztEKevPbiIMVpXxijYgCQDL0I0UQf/FfHyVakVzfeW4caPJswCGEEJG2mLvm8yV3FawL21rVylXduz3MQSC8bFmingBf930zPQFgZc90pr+PKR9RxsTvvhapuJ8xdF01Lo7tDeNoB9ul4SQjkYejh6/YkTdVWHlbQYtTLsbfhzT5CfdTnfHlqZ7dCebElpiyYKuAdM+0DER2dZVMvl8VMNmo5lM4wuzyLgjGYqL0rMhSNJ0P5/loeFNKja9HRhUsWqj8DoYxGbSuFG/ATv6QwLjYvt+TIwU2vkZ7p57uhP0V8NRfkECbVUJt0AMGO4O3+rn/7jdTqXbavLe2dhiPqqXogxXwvL9Eyh2i8I4BxN1JYHfHWMTA4Is6m/iMEq1PNKTJZ4iXnd78tcEhdAkaFaWkSB34ldqXoUZLKolVLp2uqSw7uChvvi8OnDibq/7ogQkM67Z0qJgKTsW5yPiToxi9n835JG7PLG1S8XEao6qhNOqIqMcdK8PLiaKtJnrWj6Hv4q8x8QtFygEzE=
@@ -11,6 +11,6 @@ spec:
     metadata:
       creationTimestamp: null
       name: prometheus-basic-auth
-      namespace: silvester-cluster
+      namespace: monitoring
     type: Opaque
 
