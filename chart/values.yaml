@@ -1,0 +1,14 @@
+prometheus:
+  server:
+    ingress:
+      enabled: true
+      hosts: 
+        - prometheus.pf2e.io
+      annotations: 
+        cert-manager.io/cluster-issuer: "letsencrypt-prod"
+      tls: 
+      - secretName: argocd-secret # do not change, this is provided by Argo CD
+        hosts:
+          - prometheus.pf2e.io
+      persistentVolume: 
+        enabled: false
