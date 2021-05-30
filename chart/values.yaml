@@ -17,7 +17,7 @@ prometheus:
     persistentVolume: 
       enabled: false
 
-  alertManager:
+  alertmanager:
     persistentVolume: 
       enabled: false
 
