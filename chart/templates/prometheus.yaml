@@ -1,0 +1,16 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: prometheus-basic-auth
+  namespace: default
+spec:
+  encryptedData:
+    auth: AgBjNSGp9bJuiNhhOzF0SPS2yQeA+mctQ0U4rQqK4rDAxAFUyS6En6g8KzkPJbdgXTtta6DdK/AmWTW2c/0EPbOf/gyom1NEwVaexNycJWNzYrleMb3ra/WBVSgG+X1u80ZK6ij0AMHsNfKivbQ5GAc5KnLAxBUq09TRPBScav7FkrkDstEMXF1JQfttYngR7LckIOguOMZqyzvLhcnPFcEJ2KiHUn+GUNeuJXxip6GYoWO0E4aQX9DSM4uXrS+Sa8xHoOE4DSFL1eDfT3Gmpcva3+cDtLodyx3/trt+p7dDsIRQAne3bKws0/9y1sKwV7hLutg949xnAAcSr8iYrEvi9Nj77dq8k2opBhZu0IqESI2QNkMqQcJTQfpftCGDTlYRnff+6dFvLEWoqbt3XqTb4Um0HY7YQCeHilE7k8GSWUajbA4RVMX2DVvmbBtML9UxN5sWAE4hJHK/SxAp/frboy+nRH/EPcoQBUntDZAJWbOqACOFJBHB4KZU+D1PdLCt5GhewUD7A/rnN5KNTLxhfpiMTQOleyLMBuGfH9R2RFBuTDGGx6E/6Drsn9vxQrSCBb1rLKRKc2dombQ1kJOClFej3xe5tT5K8cKUQj2GIDnYqd1KO+Ft04ZOR51P3O7dl2PK/INKAygJN6YQFRH+tW+hLb7GP8GvngHkBplUFu/phydSHmxudUTR460KAAMAMhvO914WN8Qu8DXVQ0IF1MUcoQt9aJmlWzLC4b4o00VcGDvL
+  template:
+    metadata:
+      creationTimestamp: null
+      name: prometheus-basic-auth
+      namespace: default
+    type: Opaque
+
