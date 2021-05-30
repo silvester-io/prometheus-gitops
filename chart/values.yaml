@@ -11,7 +11,7 @@ prometheus:
         nginx.ingress.kubernetes.io/auth-secret: "prometheus-basic-auth"
         nginx.ingress.kubernetes.io/auth-realm: "Authentication Required"
       tls: 
-      - secretName: argocd-secret # do not change, this is provided by Argo CD
+      - secretName: {{ .Chart.Name }}-tls
         hosts:
           - prometheus.pf2e.io
       persistentVolume: 
