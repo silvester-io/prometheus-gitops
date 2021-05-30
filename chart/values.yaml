@@ -21,7 +21,6 @@ prometheus:
     persistentVolume: 
       enabled: false
 
-  pushgatewayL
+  pushgateway:
     persistentVolume: 
       enabled: false
-
